@@ -3,6 +3,7 @@ import React from "react";
 
 import Card from "./components/layout/Card";
 
+import ParOuImpar from "./components/condicional/ParOuImpar";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import Familia from "./components/basic/Familia";
@@ -18,6 +19,9 @@ export default () => (
 
         <div className="Cards">
 
+            <Card titulo="#08 Renderizacao Condicional" color="#284">
+                <ParOuImpar numero={21}></ParOuImpar>
+            </Card>
             <Card titulo="#07 Desafio de Repeticao" color="#3A9AD9">
                 <TabelaProdutos></TabelaProdutos>
             </Card>
@@ -53,5 +57,5 @@ export default () => (
                 <Primeiro></Primeiro>
             </Card>
         </div>
-    </div>
+    </div >
 );
