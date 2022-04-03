@@ -3,12 +3,13 @@ import React from "react";
 
 import Card from "./components/layout/Card";
 
-// import ListaAlunos from "./components/repeticao/ListaAlunos";
-// import Familia from "./components/basic/Familia";
-// import FamiliaMembro from "./components/basic/FamiliaMembro";
-// import Aleatorio from "./components/basic/Random";
-// import Fragmento from "./components/basic/Fragmento";
-// import ComParametro from "./components/basic/ComParametro";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ListaAlunos from "./components/repeticao/ListaAlunos";
+import Familia from "./components/basic/Familia";
+import FamiliaMembro from "./components/basic/FamiliaMembro";
+import Aleatorio from "./components/basic/Random";
+import Fragmento from "./components/basic/Fragmento";
+import ComParametro from "./components/basic/ComParametro";
 import Primeiro from "./components/basic/Primeiro";
 
 export default () => (
@@ -17,7 +18,10 @@ export default () => (
 
         <div className="Cards">
 
-            {/* <Card titulo="#06 - Repetição" color="#FF4C65">
+            <Card titulo="#07 Desafio de Repeticao" color="#3A9AD9">
+                <TabelaProdutos></TabelaProdutos>
+            </Card>
+            <Card titulo="#06 - Repetição" color="#FF4C65">
                 <ListaAlunos></ListaAlunos>
             </Card>
 
@@ -43,7 +47,7 @@ export default () => (
                     aluno="Pedro Silva"
                     nota={9.3}
                 />
-            </Card> */}
+            </Card>
 
             <Card titulo="#01 - Primeiro Componente" color="#588C73">
                 <Primeiro></Primeiro>
